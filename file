@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
+public class Gen2 {
+
+	Random rr = new Random();
+
+	public String r1() {
+
+		String str = "";
+		str = String.valueOf(rr.nextInt(20));
+		return (str);
+
+	}
+	public String r2() {
+
+		String str2 = "";
+		str2 = String.valueOf(rr.nextInt(20));
+		return (str2);
+
+	}
+
+	
+asdfadsfasdfasd
+	public static void main(String args[]) {
+
+		Gen2 Generator = new Gen2();
+
+		System.out.println(Generator.r1());
+		System.out.println(Generator.r2());
+
+	}
+
+}
